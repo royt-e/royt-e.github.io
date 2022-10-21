@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en" data-color="light"> 
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pidcast - HTML Site Template</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- gulp:css -->
+  <link rel="stylesheet" href="static/css/app.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="static/css/css2.css" rel="stylesheet">
+  <!-- endgulp -->
+</head>
+
+<body>
+  <main>
+    <div class="preloader"><div class="lds-ripple"><img src="static/picture/preloader.gif" alt="title"></div></div>
+  <!--  ====================== Header Area =============================  -->
+  <header class="header-area header-gradient">
+      <div class="container">
+        <div class="header-navbar navbar navbar-expand-lg">
+          <a class="navbar-brand" href=""><img src="static/picture/logo.svg" alt="images"></a>
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <nav class="header-main-menu ms-auto">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link toogler" href="#"> Home </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="">Home V1</a></li>
+                    <li><a class="dropdown-item" href="index2.html">Home V2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item">
+                  <a class="nav-link toogler" href="#"> Pages </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="about.html">About</a></li>
+                    <li><a class="dropdown-item" href="category.html">Category</a></li>
+                    <li><a class="dropdown-item" href="author.html">Author</a></li>
+                    <li><a class="dropdown-item" href="authors.html">Authors</a></li>
+                    <li><a class="dropdown-item" href="tags.html">Tags </a></li>
+                    <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a class="dropdown-item" href="terms.html">Terms</a></li>
+                    <li><a class="dropdown-item" href="single.html"> Blog Details</a></li>
+                    <li><a class="dropdown-item" href="single-podcast.html">Podcast Details</a></li>
+                    <li><a class="dropdown-item" href="elements.html">Elements</a></li>
+                    <li><a class="dropdown-item" href="404.html">404</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="podcast.html">Podcast</a></li>
+                <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <ul class="header-rightbar navbar-nav">
+            <li class="nav-item"> <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#headermodal"><div class="search-modal"><img src="static/picture/search-icon.svg" alt="title"></div></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><div class="burger-box"><div class="burger-inner"></div> </div></a></li>
+          </ul>
+        </div>
+<!-- Modal -->
+<div class="modal" id="headermodal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="container">
+    <div class="container-wrapper">
+      <div class="modal-body">
+        <div class="headermodal-form">
+           <form action="#">
+               <span><img src="static/picture/search-icon.svg" alt="title"></span>
+               <input type="text" class="control-form" placeholder="Search">
+           </form>
+           <div class="search-close" data-bs-dismiss="modal">
+                <img src="static/picture/cancel.svg" alt="title">
+           </div>
+        </div>
+           <h4 class="mb-3">May we suggest</h4>
+           <div class="search-suggestions mb-4">
+              <a class="btn btn-light" href="podcast.html">Technology</a>
+              <a class="btn btn-light" href="podcast.html">Episode 10</a>
+              <a class="btn btn-light" href="podcast.html">Conversation</a>
+              <a class="btn btn-light" href="podcast.html">Audio</a>
+           </div>
+           <h4 class="mb-3">Picked for you</h4>
+           <div class="row">
+              <div class="col-md-6 col-lg-4">
+              <article class="search-block">
+                    <img src="static/picture/1.jpg" alt="title">
+                    <div class="search-block-content">
+                       <div class="search-block-meta">
+                          <span>Episode </span>
+                       </div>
+                       <h6><a href="single.html">Audio Stories Design Tips to Create Stunning Visuals</a></h6>
+                    </div>
+              </article>
+              </div>
+              <div class="col-md-6 col-lg-4">
+              <article class="search-block">
+                    <img src="static/picture/2.jpg" alt="title">
+                    <div class="search-block-content">
+                       <div class="search-block-meta">
+                          <span>Technology </span>
+                       </div>
+                       <h6><a href="single.html">Audio Stories Design Tips to Create Stunning Visuals</a></h6>
+                    </div>
+              </article>
+              </div>
+              <div class="col-md-6 col-lg-4">
+              <article class="search-block">
+                    <img src="static/picture/3.jpg" alt="title">
+                    <div class="search-block-content">
+                       <div class="search-block-meta">
+                          <span>Audio </span>
+                       </div>
+                       <h6><a href="single.html">Audio Stories Design Tips to Create Stunning Visuals</a></h6>
+                    </div>
+              </article>
+              </div>
+           </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div id="sidebar-navbar"> 
+         <a href="" class="navbar-logo"><img src="static/picture/logo.svg" alt="title"></a>
+         <h5 class="mb-1">Instagram
+        </h5>
+         <div class="row mb-5">
+           <div class="col-6">
+              <a href="#" class="sidebar-feeds mt-3">
+                  <img src="static/picture/2.jpg" alt="title">
+              </a>
+           </div>
+           <div class="col-6"> 
+              <a href="#" class="sidebar-feeds mt-3">
+                <img src="static/picture/1.jpg" alt="title">
+              </a>
+           </div>
+           <div class="col-6">
+              <a href="#" class="sidebar-feeds mt-3">
+                  <img src="static/picture/3.jpg" alt="title">
+              </a>
+           </div>
+           <div class="col-6"> 
+              <a href="#" class="sidebar-feeds mt-3">
+                <img src="static/picture/4.jpg" alt="title">
+              </a>
+           </div>
+         </div>
+         <h5 class="mb-3">Find Us</h5>
+         <div class="sidebar-contact mb-5">
+            <p>Washton, NY 3234</p>
+            <p>United States</p>
+            <p>+286 544 243</p>
+         </div>
+         <h5 class="mb-3">Share Us</h5>
+         <ul class="share-link-social list-inline">
+          <li class="list-inline-item">
+             <a class="twitter" href="javascript:;" target="_blank">
+               <svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+             </a>
+          </li>
+          <li class="list-inline-item">
+             <a class="facebook" href="javascript:;" target="_blank">
+               <svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+
+             </a>
+          </li>
+          <li class="list-inline-item">
+             <a class="linkedin" href="javascript:;" target="_blank">
+               <svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.625 3.25C2.52246 3.25 3.25 2.52246 3.25 1.625C3.25 0.727537 2.52246 0 1.625 0C0.727537 0 0 0.727537 0 1.625C0 2.52246 0.727537 3.25 1.625 3.25Z" fill="#6D727C"></path>
+<path d="M2.97917 4.33325H0.270833C0.121333 4.33325 0 4.45459 0 4.60409V12.7291C0 12.8786 0.121333 12.9999 0.270833 12.9999H2.97917C3.12867 12.9999 3.25 12.8786 3.25 12.7291V4.60409C3.25 4.45459 3.12867 4.33325 2.97917 4.33325Z" fill="#6D727C"></path>
+<path d="M11.0483 3.96024C9.89075 3.56374 8.44288 3.91203 7.57459 4.53657C7.54479 4.42011 7.43863 4.33345 7.31242 4.33345H4.60409C4.45459 4.33345 4.33325 4.45478 4.33325 4.60428V12.7293C4.33325 12.8788 4.45459 13.0001 4.60409 13.0001H7.31242C7.46192 13.0001 7.58325 12.8788 7.58325 12.7293V6.89011C8.02092 6.51311 8.58479 6.39286 9.04629 6.58895C9.49371 6.77799 9.74992 7.23949 9.74992 7.85428V12.7293C9.74992 12.8788 9.87125 13.0001 10.0208 13.0001H12.7291C12.8786 13.0001 12.9999 12.8788 12.9999 12.7293V7.30882C12.969 5.08311 11.922 4.25924 11.0483 3.96024Z" fill="#6D727C"></path>
+</svg>
+
+             </a>
+          </li>
+          <li class="list-inline-item">
+             <a class="pinterest" href="javascript:;" target="_blank">
+               <svg width="11" height="13" viewbox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.37816 8.59716C4.03627 10.3872 3.61963 12.1032 2.38401 12.9995C2.00312 10.2943 2.94365 8.26306 3.38109 6.10641C2.63555 4.85194 3.47078 2.32869 5.0418 2.95073C6.97551 3.71511 3.36744 7.61243 5.78928 8.09992C8.31838 8.60756 9.35056 3.71251 7.78214 2.12069C5.51694 -0.178956 1.18738 2.06675 1.72037 5.35893C1.84972 6.16361 2.68105 6.40735 2.05251 7.51818C0.602395 7.19709 0.169504 6.05311 0.225403 4.52824C0.315101 2.0323 2.4672 0.285784 4.62646 0.0433389C7.35705 -0.262805 9.91995 1.04627 10.2742 3.61436C10.6726 6.51395 9.04181 9.65468 6.12143 9.42849C5.32974 9.36674 4.99825 8.97415 4.37816 8.59716Z" fill="#6D727C"></path>
+</svg>
+
+             </a>
+          </li>
+       </ul>
+
+ 
+      </div>
+      </div> 
+      <img src="static/picture/main-round-circle2.svg" alt="title" class="header-round-shape">
+  </header>
+    <!--  ====================== Banner Area =============================  -->
+    <div class="banner-area my-7 my-lg-10">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 col-lg-5 offset-lg-1 order-md-1">
+            <div class="banner-image m-auto ms-md-auto mb-4" data-aos="fade-left">
+              <img src="static/picture/podcast-bro.svg" alt="title">
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 order-md-12">
+            <div class="banner-content text-center text-md-start">
+              <h2 class="display-4 mb-4 d-none d-lg-block">Latest <span class="text-primary">podcast</span> everyday in mailbox
+              </h2>
+              <h2 class="display-4 d-lg-none mb-4">Latest podcast every day</h2>
+              <p class="mb-4">We curate the best digital jobs for those who are looking to start their career in
+                designing.</p>
+              <form class="banner-newsletter m-auto ms-md-0" action="#">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Enter your email">
+                  <button class="btn btn-primary">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  ====================== Podcast Area =============================  -->
+    <div class="podcast-area position-relative  my-7 my-lg-10">
+      <div class="container">
+        <div class="section-title">
+          <h3 class="sepator2 m-0">Featured Posts</h3>  
+         </div>
+        <div class="podcast-slider">
+          <div class="item">
+            <div class="podcast-style4">
+              <div class="podcast-image"><img src="static/picture/101.jpg" alt="title"></div>
+              <div class="podcast-content">
+                <h5><a href="single.html">The Anatomy of a Great podcast</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="podcast-style4">
+              <div class="podcast-image"><img src="static/picture/113.jpg" alt="title"></div>
+              <div class="podcast-content">
+                <h5><a href="single.html">podcast: A Simple Definition</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="podcast-style4">
+              <div class="podcast-image"><img src="static/picture/1.jpg" alt="title"></div>
+              <div class="podcast-content">
+                <h5><a href="single.html">Building your audience with subscriber signups</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="podcast-style4">
+              <div class="podcast-image"><img src="static/picture/12.jpg" alt="title"></div>
+              <div class="podcast-content">
+                <h5><a href="single.html">Top Stories About Podcast</a></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="podcast-slider-arrow">
+          <button class="podcast-prev" type="button"><img src="static/picture/prev-arrow-long.svg" alt="title"></button>
+          <button class="podcast-next" type="button"><img src="static/picture/next-arrow-long.svg" alt="title"></button>
+        </div>
+      </div>
+    </div>
+
+    <!--  ====================== Podcast Area =============================  -->
+    <div class="podcast-area  my-7 my-lg-10">
+      <div class="container">
+         <div class="section-title">
+          <h3 class="sepator2 m-0">Popular Tags</h3>  
+         </div>
+        <div class="row">
+          <div class="col-6 col-lg-4 col-xl-3 col-xxl-2">
+            <div class="podcast-tags mt-4">
+              <div class="podcast-image"><img src="static/picture/112.jpg" alt="title">
+              </div>
+              <div class="podcast-content">
+                <h6 class="m-0"><a href="category.html">Business</a></h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-xl-3 col-xxl-2">
+            <div class="podcast-tags mt-4">
+              <div class="podcast-image"><img src="static/picture/211.jpg" alt="title">
+              </div>
+              <div class="podcast-content">
+                <h6 class="m-0"><a href="category.html">Interior</a></h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-xl-3 col-xxl-2">
+            <div class="podcast-tags mt-4">
+              <div class="podcast-image"><img src="static/picture/38.jpg" alt="title">
+              </div>
+              <div class="podcast-content">
+                <h6 class="m-0"><a href="category.html">Food</a></h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-xl-3 col-xxl-2">
+            <div class="podcast-tags mt-4">
+              <div class="podcast-image"><img src="static/picture/43.jpg" alt="title">
+              </div>
+              <div class="podcast-content">
+                <h6 class="m-0"><a href="category.html">Nature</a></h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-xl-3 col-xxl-2">
+            <div class="podcast-tags mt-4">
+              <div class="podcast-image"><img src="static/picture/51.jpg" alt="title">
+              </div>
+              <div class="podcast-content">
+                <h6 class="m-0"><a href="category.html">Space</a></h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-xl-3 col-xxl-2 d-flex align-items-center">
+            <div class="mt-4">
+              <a href="category.html" class="btn btn-outline-secondary btn-lg dashed mb-1">Explore All <span class="ms-1"><img src="static/picture/view-all-arrow.svg" alt="title"></span></a>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <!--  ====================== Podcast Area =============================  -->
+    <div class="podcast-area position-relative  my-7 my-lg-10">
+      <img src="static/picture/main-round-circle.svg" alt="title" class="podcast-round-shape">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="section-title">
+            <h3 class="sepator2 m-0">Studio Updates</h3>  
+           </div>
+           <a href="category.html" class="view-all">View All</a>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-duration="800">
+            <div class="podcast-style2 mt-4">
+              <div class="podcast-top">
+              <div class="podcast-image"><img src="static/picture/18.jpg" alt="title">
+                <div class="social">
+                  <a href="javascript:;" class="link facebook" target="_parent"><svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link twitter" target="_parent"><svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link linkedin" target="_parent"><svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.04829 0.960238C5.89075 0.563738 4.44288 0.91203 3.57459 1.53657C3.54479 1.42011 3.43863 1.33345 3.31242 1.33345H0.604085C0.454585 1.33345 0.333252 1.45478 0.333252 1.60428V9.72928C0.333252 9.87878 0.454585 10.0001 0.604085 10.0001H3.31242C3.46192 10.0001 3.58325 9.87878 3.58325 9.72928V3.89011C4.02092 3.51311 4.58479 3.39286 5.04629 3.58895C5.49371 3.77799 5.74992 4.23949 5.74992 4.85428V9.72928C5.74992 9.87878 5.87125 10.0001 6.02075 10.0001H8.72909C8.87859 10.0001 8.99992 9.87878 8.99992 9.72928V4.30882C8.96904 2.08311 7.922 1.25924 7.04829 0.960238Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                </div>
+              </div>
+              <div class="podcast-content">
+                <ul class="podcast-meta list-inline">
+                  <li><a href="category.html">STUDIO</a></li>
+                  <li><span>5 mins read</span></li>
+                </ul>
+                <h5 class="mb-2"><a href="single.html">The Ultimate Glossary of Terms About Podcast</a></h5>
+                <p class="m-0">Up the area the the excuse should, problem the but fall</p>
+
+              </div>
+            </div>
+              <div class="podcast-bottom">
+                <div class="podcast-author"><img src="static/picture/36.jpg" alt="title"><a href="author.html">Mark
+                    Twin</a></div>
+                <p class="m-0 small">3 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-duration="900">
+            <div class="podcast-style2 mt-4">
+            <div class="podcast-top">
+              <div class="podcast-image"><img src="static/picture/19.jpg" alt="title">
+                <div class="social">
+                  <a href="javascript:;" class="link facebook" target="_parent"><svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+</a>
+                  <a href="javascript:;" class="link twitter" target="_parent"><svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link linkedin" target="_parent"><svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.04829 0.960238C5.89075 0.563738 4.44288 0.91203 3.57459 1.53657C3.54479 1.42011 3.43863 1.33345 3.31242 1.33345H0.604085C0.454585 1.33345 0.333252 1.45478 0.333252 1.60428V9.72928C0.333252 9.87878 0.454585 10.0001 0.604085 10.0001H3.31242C3.46192 10.0001 3.58325 9.87878 3.58325 9.72928V3.89011C4.02092 3.51311 4.58479 3.39286 5.04629 3.58895C5.49371 3.77799 5.74992 4.23949 5.74992 4.85428V9.72928C5.74992 9.87878 5.87125 10.0001 6.02075 10.0001H8.72909C8.87859 10.0001 8.99992 9.87878 8.99992 9.72928V4.30882C8.96904 2.08311 7.922 1.25924 7.04829 0.960238Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                </div>
+              </div>
+              <div class="podcast-content">
+                <ul class="podcast-meta list-inline">
+                  <li><a href="category.html">STUDIO</a></li>
+                  <li><span>5 mins read</span></li>
+                </ul>
+                <h5 class="mb-2"><a href="single.html">Where to Find Guest Blogging Opportunities?</a></h5>
+                <p class="m-0">Will the to the with have self-interest, on implemented back poured</p>
+
+              </div>
+              </div>
+              
+
+              <div class="podcast-bottom">
+                <div class="podcast-author"><img src="static/picture/41.jpg" alt="title"><a href="author.html">Mark
+                    Twin</a></div>
+                <p class="m-0 small">1 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-duration="1000">
+            <div class="podcast-style2 mt-4">
+            <div class="podcast-top">
+              <div class="podcast-image"><img src="static/picture/20.jpg" alt="title">
+                <div class="social">
+                  <a href="javascript:;" class="link facebook" target="_parent"><svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+</a>
+                  <a href="javascript:;" class="link twitter" target="_parent"><svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link linkedin" target="_parent"><svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.04829 0.960238C5.89075 0.563738 4.44288 0.91203 3.57459 1.53657C3.54479 1.42011 3.43863 1.33345 3.31242 1.33345H0.604085C0.454585 1.33345 0.333252 1.45478 0.333252 1.60428V9.72928C0.333252 9.87878 0.454585 10.0001 0.604085 10.0001H3.31242C3.46192 10.0001 3.58325 9.87878 3.58325 9.72928V3.89011C4.02092 3.51311 4.58479 3.39286 5.04629 3.58895C5.49371 3.77799 5.74992 4.23949 5.74992 4.85428V9.72928C5.74992 9.87878 5.87125 10.0001 6.02075 10.0001H8.72909C8.87859 10.0001 8.99992 9.87878 8.99992 9.72928V4.30882C8.96904 2.08311 7.922 1.25924 7.04829 0.960238Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                </div>
+              </div>
+              <div class="podcast-content">
+                <ul class="podcast-meta list-inline">
+                  <li><a href="category.html">STUDIO</a></li>
+                  <li><span>5 mins read</span></li>
+                </ul>
+                <h5 class="mb-2"><a href="single.html">This Week's Top Stories About Podcast</a></h5>
+                <p class="m-0">He would represent all much expand show handles french vow</p>
+
+              </div>
+              </div>
+              <div class="podcast-bottom">
+                <div class="podcast-author"><img src="static/picture/5.jpg" alt="title"><a href="author.html">Mark
+                    Twin</a></div>
+                <p class="m-0 small">4 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1100">
+            <div class="podcast-style2 mt-4">
+            <div class="podcast-top">
+              <div class="podcast-image"><img src="static/picture/4.jpg" alt="title"> 
+                <div class="social">
+                  <a href="javascript:;" class="link facebook" target="_parent"><svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+</a>
+                  <a href="javascript:;" class="link twitter" target="_parent"><svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link linkedin" target="_parent"><svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.04829 0.960238C5.89075 0.563738 4.44288 0.91203 3.57459 1.53657C3.54479 1.42011 3.43863 1.33345 3.31242 1.33345H0.604085C0.454585 1.33345 0.333252 1.45478 0.333252 1.60428V9.72928C0.333252 9.87878 0.454585 10.0001 0.604085 10.0001H3.31242C3.46192 10.0001 3.58325 9.87878 3.58325 9.72928V3.89011C4.02092 3.51311 4.58479 3.39286 5.04629 3.58895C5.49371 3.77799 5.74992 4.23949 5.74992 4.85428V9.72928C5.74992 9.87878 5.87125 10.0001 6.02075 10.0001H8.72909C8.87859 10.0001 8.99992 9.87878 8.99992 9.72928V4.30882C8.96904 2.08311 7.922 1.25924 7.04829 0.960238Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                </div>
+              </div>
+              <div class="podcast-content">
+                <ul class="podcast-meta list-inline">
+                  <li><a href="category.html">STUDIO</a></li>
+                  <li><span>5 mins read</span></li>
+                </ul>
+                <h5 class="mb-2"><a href="single.html">Seven brilliant ways to advertise studio</a></h5>
+                <p class="m-0">You have probably seen this happen with other forms of media...</p>
+  
+              </div>
+              </div>
+              <div class="podcast-bottom">
+                <div class="podcast-author"><img src="static/picture/6.jpg" alt="title"><a href="author.html">Mark
+                    Twin</a></div>
+                <p class="m-0 small">8 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1200">
+            <div class="podcast-style2 mt-4">
+            <div class="podcast-top">
+              <div class="podcast-image"><img src="static/picture/28.jpg" alt="title">
+                <div class="social">
+                  <a href="javascript:;" class="link facebook" target="_parent"><svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+</a>
+                  <a href="javascript:;" class="link twitter" target="_parent"><svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link linkedin" target="_parent"><svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.04829 0.960238C5.89075 0.563738 4.44288 0.91203 3.57459 1.53657C3.54479 1.42011 3.43863 1.33345 3.31242 1.33345H0.604085C0.454585 1.33345 0.333252 1.45478 0.333252 1.60428V9.72928C0.333252 9.87878 0.454585 10.0001 0.604085 10.0001H3.31242C3.46192 10.0001 3.58325 9.87878 3.58325 9.72928V3.89011C4.02092 3.51311 4.58479 3.39286 5.04629 3.58895C5.49371 3.77799 5.74992 4.23949 5.74992 4.85428V9.72928C5.74992 9.87878 5.87125 10.0001 6.02075 10.0001H8.72909C8.87859 10.0001 8.99992 9.87878 8.99992 9.72928V4.30882C8.96904 2.08311 7.922 1.25924 7.04829 0.960238Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                </div>
+              </div>
+              <div class="podcast-content">
+                <ul class="podcast-meta list-inline">
+                  <li><a href="category.html">STUDIO</a></li>
+                  <li><span>5 mins read</span></li>
+                </ul>
+                <h5 class="mb-2"><a href="single.html">Ten top reasons why you face obstacles in learning</a></h5>
+                <p class="m-0">Podcasting has gone mainstream over the past few years...</p>
+  
+              </div>
+              </div>
+              <div class="podcast-bottom">
+                <div class="podcast-author"><img src="static/picture/7.jpg" alt="title"><a href="author.html">Bella Jimenez
+                </a></div>
+                <p class="m-0 small">2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1300">
+            <div class="podcast-style2 mt-4">
+            <div class="podcast-top">
+              <div class="podcast-image"><img src="static/picture/29.jpg" alt="title">
+                <div class="social">
+                  <a href="javascript:;" class="link facebook" target="_parent"><svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+</a>
+                  <a href="javascript:;" class="link twitter" target="_parent"><svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link linkedin" target="_parent"><svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.04829 0.960238C5.89075 0.563738 4.44288 0.91203 3.57459 1.53657C3.54479 1.42011 3.43863 1.33345 3.31242 1.33345H0.604085C0.454585 1.33345 0.333252 1.45478 0.333252 1.60428V9.72928C0.333252 9.87878 0.454585 10.0001 0.604085 10.0001H3.31242C3.46192 10.0001 3.58325 9.87878 3.58325 9.72928V3.89011C4.02092 3.51311 4.58479 3.39286 5.04629 3.58895C5.49371 3.77799 5.74992 4.23949 5.74992 4.85428V9.72928C5.74992 9.87878 5.87125 10.0001 6.02075 10.0001H8.72909C8.87859 10.0001 8.99992 9.87878 8.99992 9.72928V4.30882C8.96904 2.08311 7.922 1.25924 7.04829 0.960238Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                </div>
+              </div>
+              <div class="podcast-content">
+                <ul class="podcast-meta list-inline">
+                  <li><a href="category.html">STUDIO</a></li>
+                  <li><span>5 mins read</span></li>
+                </ul>
+                <h5 class="mb-2"><a href="single.html">7 features of studio that make everyone love it</a></h5>
+                <p class="m-0">In fact, it's hard to walk into a modern office and not find someone...</p>
+  
+              </div>
+              </div>
+              <div class="podcast-bottom">
+                <div class="podcast-author"><img src="static/picture/8.jpg" alt="title"><a href="author.html">Edwin Watson
+                </a></div>
+                <p class="m-0 small">4 hours ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  ====================== Podcast Area =============================  -->
+    <div class="podcast-area position-relative  my-7 my-lg-10">
+      <img src="static/picture/main-round-circle.svg" alt="title" class="podcast-round-shape2">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="section-title">
+            <h3 class="sepator2 m-0">On Air LIVE</h3>  
+           </div>
+           <a href="category.html" class="view-all">View All</a>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-duration="800">
+            <div class="podcast-style2 mt-4">
+            <div class="podcast-top">
+              <div class="podcast-image"><img src="static/picture/21.jpg" alt="title">
+                <div class="social">
+                  <a href="javascript:;" class="link facebook" target="_blank"><svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+</a>
+                  <a href="javascript:;" class="link twitter" target="_blank"><svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link linkedin" target="_blank"><svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.04829 0.960238C5.89075 0.563738 4.44288 0.91203 3.57459 1.53657C3.54479 1.42011 3.43863 1.33345 3.31242 1.33345H0.604085C0.454585 1.33345 0.333252 1.45478 0.333252 1.60428V9.72928C0.333252 9.87878 0.454585 10.0001 0.604085 10.0001H3.31242C3.46192 10.0001 3.58325 9.87878 3.58325 9.72928V3.89011C4.02092 3.51311 4.58479 3.39286 5.04629 3.58895C5.49371 3.77799 5.74992 4.23949 5.74992 4.85428V9.72928C5.74992 9.87878 5.87125 10.0001 6.02075 10.0001H8.72909C8.87859 10.0001 8.99992 9.87878 8.99992 9.72928V4.30882C8.96904 2.08311 7.922 1.25924 7.04829 0.960238Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                </div>
+              </div>
+              <div class="podcast-content">
+                <ul class="podcast-meta list-inline">
+                  <li><a href="category.html">STUDIO</a></li>
+                  <li><span>5 mins read</span></li>
+                </ul>
+                <h5 class="mb-2"><a href="single.html">17 Superstars We'd Love to Recruit for Our podcast</a></h5>
+                <p class="m-0">For lots bold, the domed of on government through have </p>
+
+              </div>
+              </div>
+              <div class="podcast-bottom">
+                <div class="podcast-author"><img src="static/picture/6.jpg" alt="title"><a href="author.html">Mark
+                    Twin</a></div>
+                <p class="m-0 small">3 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-duration="900">
+            <div class="podcast-style2 mt-4">
+            <div class="podcast-top">
+              <div class="podcast-image"><img src="static/picture/22.jpg" alt="title">
+                <div class="social">
+                  <a href="javascript:;" class="link facebook" target="_blank"><svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+</a>
+                  <a href="javascript:;" class="link twitter" target="_blank"><svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link linkedin" target="_blank"><svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.04829 0.960238C5.89075 0.563738 4.44288 0.91203 3.57459 1.53657C3.54479 1.42011 3.43863 1.33345 3.31242 1.33345H0.604085C0.454585 1.33345 0.333252 1.45478 0.333252 1.60428V9.72928C0.333252 9.87878 0.454585 10.0001 0.604085 10.0001H3.31242C3.46192 10.0001 3.58325 9.87878 3.58325 9.72928V3.89011C4.02092 3.51311 4.58479 3.39286 5.04629 3.58895C5.49371 3.77799 5.74992 4.23949 5.74992 4.85428V9.72928C5.74992 9.87878 5.87125 10.0001 6.02075 10.0001H8.72909C8.87859 10.0001 8.99992 9.87878 8.99992 9.72928V4.30882C8.96904 2.08311 7.922 1.25924 7.04829 0.960238Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                </div>
+              </div>
+              <div class="podcast-content">
+                <ul class="podcast-meta list-inline">
+                  <li><a href="category.html">STUDIO</a></li>
+                  <li><span>5 mins read</span></li>
+                </ul>
+                <h5 class="mb-2"><a href="single.html">podcast: The Good, the Bad, and the Ugly</a></h5>
+                <p class="m-0">Particularly attempt, he the city it the in deference feedback</p>
+
+              </div>
+              </div>
+              <div class="podcast-bottom">
+                <div class="podcast-author"><img src="static/picture/7.jpg" alt="title"><a href="author.html">Mark
+                    Twin</a></div>
+                <p class="m-0 small">2 hours ago</p>
+              </div> 
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-duration="1000">
+            <div class="podcast-style2 mt-4">
+            <div class="podcast-top">
+              <div class="podcast-image"><img src="static/picture/23.jpg" alt="title">
+                <div class="social">
+                  <a href="javascript:;" class="link facebook" target="_blank"><svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link twitter" target="_blank"><svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link linkedin" target="_blank"><svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.04829 0.960238C5.89075 0.563738 4.44288 0.91203 3.57459 1.53657C3.54479 1.42011 3.43863 1.33345 3.31242 1.33345H0.604085C0.454585 1.33345 0.333252 1.45478 0.333252 1.60428V9.72928C0.333252 9.87878 0.454585 10.0001 0.604085 10.0001H3.31242C3.46192 10.0001 3.58325 9.87878 3.58325 9.72928V3.89011C4.02092 3.51311 4.58479 3.39286 5.04629 3.58895C5.49371 3.77799 5.74992 4.23949 5.74992 4.85428V9.72928C5.74992 9.87878 5.87125 10.0001 6.02075 10.0001H8.72909C8.87859 10.0001 8.99992 9.87878 8.99992 9.72928V4.30882C8.96904 2.08311 7.922 1.25924 7.04829 0.960238Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                </div>
+              </div>
+              <div class="podcast-content">
+                <ul class="podcast-meta list-inline">
+                  <li><a href="category.html">STUDIO</a></li>
+                  <li><span>5 mins read</span></li>
+                </ul>
+                <h5 class="mb-2"><a href="single.html">15 Things Your Boss Wishes You Knew About Podcast</a></h5>
+                <p class="m-0">Candidates, unmolested greater, where the cache the morning</p>
+
+              </div>
+              </div>
+              <div class="podcast-bottom">
+                <div class="podcast-author"><img src="static/picture/8.jpg" alt="title"><a href="author.html">Mark
+                    Twin</a></div>
+                <p class="m-0 small">5 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1400">
+            <div class="podcast-style2 mt-4">
+            <div class="podcast-top">
+              <div class="podcast-image"><img src="static/picture/30.jpg" alt="title">
+                <div class="social">
+                  <a href="javascript:;" class="link facebook" target="_parent"><svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+</a>
+                  <a href="javascript:;" class="link twitter" target="_parent"><svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link linkedin" target="_parent"><svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.04829 0.960238C5.89075 0.563738 4.44288 0.91203 3.57459 1.53657C3.54479 1.42011 3.43863 1.33345 3.31242 1.33345H0.604085C0.454585 1.33345 0.333252 1.45478 0.333252 1.60428V9.72928C0.333252 9.87878 0.454585 10.0001 0.604085 10.0001H3.31242C3.46192 10.0001 3.58325 9.87878 3.58325 9.72928V3.89011C4.02092 3.51311 4.58479 3.39286 5.04629 3.58895C5.49371 3.77799 5.74992 4.23949 5.74992 4.85428V9.72928C5.74992 9.87878 5.87125 10.0001 6.02075 10.0001H8.72909C8.87859 10.0001 8.99992 9.87878 8.99992 9.72928V4.30882C8.96904 2.08311 7.922 1.25924 7.04829 0.960238Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                </div>
+              </div>
+              <div class="podcast-content">
+                <ul class="podcast-meta list-inline">
+                  <li><a href="category.html">STUDIO</a></li>
+                  <li><span>5 mins read</span></li>
+                </ul>
+                <h5 class="mb-2"><a href="single.html">5 disadvantages of studio &  how you can workaround</a></h5>
+                <p class="m-0">But this is a relatively new trend, and there are still some...</p>
+  
+              </div>
+              </div>
+              <div class="podcast-bottom">
+                <div class="podcast-author"><img src="static/picture/9.jpg" alt="title"><a href="author.html">Mark
+                  Caitlin </a></div>
+                <p class="m-0 small">8 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1500">
+            <div class="podcast-style2 mt-4">
+            <div class="podcast-top">
+              <div class="podcast-image"><img src="static/picture/31.jpg" alt="title">
+                <div class="social">
+                  <a href="javascript:;" class="link facebook" target="_parent"><svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+</a>
+                  <a href="javascript:;" class="link twitter" target="_parent"><svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link linkedin" target="_parent"><svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.04829 0.960238C5.89075 0.563738 4.44288 0.91203 3.57459 1.53657C3.54479 1.42011 3.43863 1.33345 3.31242 1.33345H0.604085C0.454585 1.33345 0.333252 1.45478 0.333252 1.60428V9.72928C0.333252 9.87878 0.454585 10.0001 0.604085 10.0001H3.31242C3.46192 10.0001 3.58325 9.87878 3.58325 9.72928V3.89011C4.02092 3.51311 4.58479 3.39286 5.04629 3.58895C5.49371 3.77799 5.74992 4.23949 5.74992 4.85428V9.72928C5.74992 9.87878 5.87125 10.0001 6.02075 10.0001H8.72909C8.87859 10.0001 8.99992 9.87878 8.99992 9.72928V4.30882C8.96904 2.08311 7.922 1.25924 7.04829 0.960238Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                </div>
+              </div>
+              <div class="podcast-content">
+                <ul class="podcast-meta list-inline">
+                  <li><a href="category.html">STUDIO</a></li>
+                  <li><span>5 mins read</span></li>
+                </ul>
+                <h5 class="mb-2"><a href="single.html">15 Things Your Boss Wishes You Knew About Podcast</a></h5>
+                <p class="m-0">The first misconception is that podcasting is only possible...</p>
+  
+              </div>
+              </div>
+              <div class="podcast-bottom">
+                <div class="podcast-author"><img src="static/picture/10.jpg" alt="title"><a href="author.html">Henderson
+                    Twin</a></div>
+                <p class="m-0 small">5 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1600">
+            <div class="podcast-style2 mt-4">
+            <div class="podcast-top">
+              <div class="podcast-image"><img src="static/picture/32.jpg" alt="title">
+                <div class="social">
+                  <a href="javascript:;" class="link facebook" target="_parent">
+                    <svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link twitter" target="_parent"><svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                  <a href="javascript:;" class="link linkedin" target="_parent"><svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.04829 0.960238C5.89075 0.563738 4.44288 0.91203 3.57459 1.53657C3.54479 1.42011 3.43863 1.33345 3.31242 1.33345H0.604085C0.454585 1.33345 0.333252 1.45478 0.333252 1.60428V9.72928C0.333252 9.87878 0.454585 10.0001 0.604085 10.0001H3.31242C3.46192 10.0001 3.58325 9.87878 3.58325 9.72928V3.89011C4.02092 3.51311 4.58479 3.39286 5.04629 3.58895C5.49371 3.77799 5.74992 4.23949 5.74992 4.85428V9.72928C5.74992 9.87878 5.87125 10.0001 6.02075 10.0001H8.72909C8.87859 10.0001 8.99992 9.87878 8.99992 9.72928V4.30882C8.96904 2.08311 7.922 1.25924 7.04829 0.960238Z" fill="#6D727C"></path>
+</svg>
+
+</a>
+                </div>
+              </div>
+              <div class="podcast-content">
+                <ul class="podcast-meta list-inline">
+                  <li><a href="category.html">STUDIO</a></li>
+                  <li><span>5 mins read</span></li>
+                </ul>
+                <h5 class="mb-2"><a href="single.html">Learn the truth about studio in the next 60 seconds</a></h5>
+                <p class="m-0">People still associate podcasting with the days of boom boxes...</p>
+  
+              </div>
+              </div>
+              <div class="podcast-bottom">
+                <div class="podcast-author"><img src="static/picture/11.jpg" alt="title"><a href="author.html">Jimenez
+                    Twin</a></div>
+                <p class="m-0 small">10 hours ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  ====================== Testimonial Area =============================  -->
+    <div class="testimonial-area  my-7 my-lg-10">
+      <div class="container">
+        <div class="testimonial-slider">
+          <div class="item">
+            <div class="testimonial-style">
+              <div class="testimonial-content">
+                <p>And acquiesce arrange spends had back would, avoid is harmonics, best notice any this, blind would
+                  done we are ok!</p>
+                <h6 class="m-0">Robert Fox</h6>
+              </div>
+              <div class="testimonial-image">
+                <img src="static/picture/111.jpg" alt="title">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-style">
+              <div class="testimonial-content">
+                <p>Of a and medical the operations to can brief client evaluated the to started fame. A are intermixing
+                  our the important.</p>
+                <h6 class="m-0">Cody Fisher</h6>
+              </div>
+              <div class="testimonial-image">
+                <img src="static/picture/210.jpg" alt="title">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-style">
+              <div class="testimonial-content">
+                <p>And acquiesce arrange spends had back would, avoid is harmonics, best notice any this, blind would
+                  done please give up!</p>
+                <h6 class="m-0">Rina Morgan</h6>
+              </div>
+              <div class="testimonial-image">
+                <img src="static/picture/36.jpg" alt="title">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  ====================== Footer Area =============================  -->
+    <footer class="footer-area footer-gradient position-relative mt-7 mt-lg-10 pb-7 pb-lg-10">
+      <a href="#" class="footer-back"><svg width="18" height="10" viewbox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 9L9 1L17 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 m-auto">
+            <div class="footer-widget mb-7 mb-lg-10 text-center">
+              <p class="footer-get small">GET A MEMBERSHIP TODAY</p>
+              <h2 class="display-4 mb-2">Become a Paid Member </h2>
+              <p class="mb-5 mb-md-7">Members can become excellent podcast guests, be called upon to provide ...<br> But, if
+                your members are already paying </p>
+              <a href="#" class="btn btn-primary text-white mb-5 mb-md-7">Become a Member</a>
+              <p class="copyright-text m-0">Copyright &copy; 2021.Company name All rights reserved.<a target="_blank" href="https://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom pt-4">
+          <div class="row align-items-center">
+            <div class="col-md-4">
+              <div class="footer-widget text-center text-md-start mb-2 mb-md-0">
+                <div class="footer-widget-logo">
+                  <a href="#"><img src="static/picture/logo.svg" alt="title"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-widget">
+                <ul class="footer-page-list list-inline text-center mb-2 mb-md-0">
+                  <li class="list-inline-item"><a href="about.html">About</a></li>
+                  <li class="list-inline-item"><a href="privacy-policy.html">Privacy Policy</a></li>
+                  <li class="list-inline-item"><a href="terms.html">Terms</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-widget">
+                <ul class="footer-social-share list-inline text-center text-md-end m-0">
+                  <li class="list-inline-item">
+                    <a class="twitter" href="javascript:;" target="_blank">
+                      <svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.86789 3.94232C10.2987 3.94232 10.6479 3.59311 10.6479 3.16232C10.6479 2.73154 10.2987 2.38232 9.86789 2.38232C9.43711 2.38232 9.08789 2.73154 9.08789 3.16232C9.08789 3.59311 9.43711 3.94232 9.86789 3.94232Z" fill="#6D727C"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.25 6.5C3.25 8.29238 4.70763 9.75 6.5 9.75C8.29238 9.75 9.75 8.29238 9.75 6.5C9.75 4.70763 8.29238 3.25 6.5 3.25C4.70763 3.25 3.25 4.70763 3.25 6.5ZM4.875 6.5C4.875 5.60381 5.60381 4.875 6.5 4.875C7.39619 4.875 8.125 5.60381 8.125 6.5C8.125 7.39619 7.39619 8.125 6.5 8.125C5.60381 8.125 4.875 7.39619 4.875 6.5Z" fill="#6D727C"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.25 13H9.75C11.4205 13 13 11.4205 13 9.75V3.25C13 1.5795 11.4205 0 9.75 0H3.25C1.5795 0 0 1.5795 0 3.25V9.75C0 11.4205 1.5795 13 3.25 13ZM1.625 3.25C1.625 2.49031 2.49031 1.625 3.25 1.625H9.75C10.5097 1.625 11.375 2.49031 11.375 3.25V9.75C11.375 10.5097 10.5097 11.375 9.75 11.375H3.25C2.47569 11.375 1.625 10.5243 1.625 9.75V3.25Z" fill="#6D727C"></path>
+                        </svg>
+                        
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="facebook" href="javascript:;" target="_blank">
+                      <svg width="9" height="15" viewbox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.69904 14.393L2.67857 8.09607H0V5.39738H2.67857V3.59825C2.67857 1.17015 4.17099 0 6.32088 0C7.35069 0 8.23577 0.0772455 8.4937 0.111771V2.64928L7.00264 2.64996C5.83342 2.64996 5.60703 3.20973 5.60703 4.03116V5.39738H8.92857L8.03571 8.09607H5.60702V14.393H2.69904Z" fill="#6D727C"></path>
+                        </svg>
+                        
+                      
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="linkedin" href="javascript:;" target="_blank">
+                      <svg width="14" height="14" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.6875 3.375C2.61948 3.375 3.375 2.61948 3.375 1.6875C3.375 0.75552 2.61948 0 1.6875 0C0.75552 0 0 0.75552 0 1.6875C0 2.61948 0.75552 3.375 1.6875 3.375Z" fill="#6D727C"></path>
+                        <path d="M3.09375 4.5H0.28125C0.126 4.5 0 4.626 0 4.78125V13.2188C0 13.374 0.126 13.5 0.28125 13.5H3.09375C3.249 13.5 3.375 13.374 3.375 13.2188V4.78125C3.375 4.626 3.249 4.5 3.09375 4.5Z" fill="#6D727C"></path>
+                        <path d="M11.4733 4.11247C10.2712 3.70072 8.76769 4.06241 7.866 4.71097C7.83506 4.59003 7.72481 4.50003 7.59375 4.50003H4.78125C4.626 4.50003 4.5 4.62603 4.5 4.78128V13.2188C4.5 13.374 4.626 13.5 4.78125 13.5H7.59375C7.749 13.5 7.875 13.374 7.875 13.2188V7.15503C8.3295 6.76353 8.91506 6.63866 9.39431 6.84228C9.85894 7.0386 10.125 7.51785 10.125 8.15628V13.2188C10.125 13.374 10.251 13.5 10.4062 13.5H13.2188C13.374 13.5 13.5 13.374 13.5 13.2188V7.58985C13.4679 5.27853 12.3806 4.42297 11.4733 4.11247Z" fill="#6D727C"></path>
+                        </svg>
+                        
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="youtube" href="javascript:;" target="_blank">
+                      <svg width="16" height="11" viewbox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2659 0.343069C14.951 0.524413 15.4906 1.05589 15.6745 1.72945C16.0159 2.95882 15.9999 5.52198 15.9999 5.52198C15.9999 5.52198 15.9975 8.07101 15.6665 9.2996C15.4803 9.97238 14.9382 10.5031 14.2539 10.6836C13.002 11.0055 7.99355 11 7.99355 11C7.99355 11 2.99868 10.9945 1.73397 10.6569C1.04806 10.4756 0.508442 9.94411 0.324572 9.27133C-0.00319657 8.05452 0 5.49215 0 5.49215C0 5.49215 0.00319892 2.94234 0.333365 1.71296C0.518834 1.04018 1.07364 0.496937 1.74517 0.317162C2.99788 -0.00548932 8.00554 5.96305e-06 8.00554 5.96305e-06C8.00554 5.96305e-06 13.014 0.00550127 14.2659 0.343069ZM6.40747 3.14409L6.40347 7.85434L10.5701 5.50314L6.40747 3.14409Z" fill="#6D727C"></path>
+                        </svg>
+                        
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="static/picture/main-round-circle2.svg" alt="title" class="footer-round-shape2">
+    </footer>
+  </main>
+
+  <!-- gulp:js -->
+  <script src="static/js/build.min.js"></script>
+  <!-- endgulp -->
+</body>
+
+</html>

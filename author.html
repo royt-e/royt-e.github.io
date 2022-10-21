@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" data-color="light"> 
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pidcast - HTML Site Template</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- gulp:css -->
+  <link rel="stylesheet" href="static/css/app.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="static/css/css2.css" rel="stylesheet">
+  <!-- endgulp -->
+</head>
+
+<body>
+  <main>
+    <div class="preloader"><div class="lds-ripple"><img src="static/picture/preloader.gif" alt="title"></div></div>
+  <!--  ====================== Header Area =============================  -->
+  <header class="header-area">
+      <div class="container">
+        <div class="header-navbar navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html"><img src="static/picture/logo.svg" alt="images"></a>
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <nav class="header-main-menu ms-auto">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link toogler" href="#"> Home </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html">Home V1</a></li>
+                    <li><a class="dropdown-item" href="index2.html">Home V2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item">
+                  <a class="nav-link toogler" href="#"> Pages </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="about.html">About</a></li>
+                    <li><a class="dropdown-item" href="category.html">Category</a></li>
+                    <li><a class="dropdown-item" href="">Author</a></li>
+                    <li><a class="dropdown-item" href="authors.html">Authors</a></li>
+                    <li><a class="dropdown-item" href="tags.html">Tags </a></li>
+                    <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a class="dropdown-item" href="terms.html">Terms</a></li>
+                    <li><a class="dropdown-item" href="single.html"> Blog Details</a></li>
+                    <li><a class="dropdown-item" href="single-podcast.html">Podcast Details</a></li>
+                    <li><a class="dropdown-item" href="elements.html">Elements</a></li>
+                    <li><a class="dropdown-item" href="404.html">404</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="podcast.html">Podcast</a></li>
+                <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <ul class="header-rightbar navbar-nav">
+            <li class="nav-item"> <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#headermodal"><div class="search-modal"><img src="static/picture/search-icon.svg" alt="title"></div></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><div class="burger-box"><div class="burger-inner"></div> </div></a></li>
+          </ul>
+        </div>
+<!-- Modal -->
+<div class="modal" id="headermodal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="container">
+    <div class="container-wrapper">
+      <div class="modal-body">
+        <div class="headermodal-form">
+           <form action="#">
+               <span><img src="static/picture/search-icon.svg" alt="title"></span>
+               <input type="text" class="control-form" placeholder="Search">
+           </form>
+           <div class="search-close" data-bs-dismiss="modal">
+                <img src="static/picture/cancel.svg" alt="title">
+           </div>
+        </div>
+           <h4 class="mb-3">May we suggest</h4>
+           <div class="search-suggestions mb-4">
+              <a class="btn btn-light" href="podcast.html">Technology</a>
+              <a class="btn btn-light" href="podcast.html">Episode 10</a>
+              <a class="btn btn-light" href="podcast.html">Conversation</a>
+              <a class="btn btn-light" href="podcast.html">Audio</a>
+           </div>
+           <h4 class="mb-3">Picked for you</h4>
+           <div class="row">
+              <div class="col-md-6 col-lg-4">
+              <article class="search-block">
+                    <img src="static/picture/1.jpg" alt="title">
+                    <div class="search-block-content">
+                       <div class="search-block-meta">
+                          <span>Episode </span>
+                       </div>
+                       <h6><a href="single.html">Audio Stories Design Tips to Create Stunning Visuals</a></h6>
+                    </div>
+              </article>
+              </div>
+              <div class="col-md-6 col-lg-4">
+              <article class="search-block">
+                    <img src="static/picture/2.jpg" alt="title">
+                    <div class="search-block-content">
+                       <div class="search-block-meta">
+                          <span>Technology </span>
+                       </div>
+                       <h6><a href="single.html">Audio Stories Design Tips to Create Stunning Visuals</a></h6>
+                    </div>
+              </article>
+              </div>
+              <div class="col-md-6 col-lg-4">
+              <article class="search-block">
+                    <img src="static/picture/3.jpg" alt="title">
+                    <div class="search-block-content">
+                       <div class="search-block-meta">
+                          <span>Audio </span>
+                       </div>
+                       <h6><a href="single.html">Audio Stories Design Tips to Create Stunning Visuals</a></h6>
+                    </div>
+              </article>
+              </div>
+           </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div id="sidebar-navbar"> 
+         <a href="index.html" class="navbar-logo"><img src="static/picture/logo.svg" alt="title"></a>
+         <h5 class="mb-1">Instagram
+        </h5>
+         <div class="row mb-5">
+           <div class="col-6">
+              <a href="#" class="sidebar-feeds mt-3">
+                  <img src="static/picture/2.jpg" alt="title">
+              </a>
+           </div>
+           <div class="col-6"> 
+              <a href="#" class="sidebar-feeds mt-3">
+                <img src="static/picture/1.jpg" alt="title">
+              </a>
+           </div>
+           <div class="col-6">
+              <a href="#" class="sidebar-feeds mt-3">
+                  <img src="static/picture/3.jpg" alt="title">
+              </a>
+           </div>
+           <div class="col-6"> 
+              <a href="#" class="sidebar-feeds mt-3">
+                <img src="static/picture/4.jpg" alt="title">
+              </a>
+           </div>
+         </div>
+         <h5 class="mb-3">Find Us</h5>
+         <div class="sidebar-contact mb-5">
+            <p>Washton, NY 3234</p>
+            <p>United States</p>
+            <p>+286 544 243</p>
+         </div>
+         <h5 class="mb-3">Share Us</h5>
+         <ul class="share-link-social list-inline">
+          <li class="list-inline-item">
+             <a class="twitter" href="javascript:;" target="_blank">
+               <svg width="16" height="13" viewbox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9914 1.54204C15.4033 1.80262 14.7716 1.97869 14.1075 2.05828C14.7927 1.64824 15.3054 1.00289 15.5498 0.242638C14.906 0.625056 14.2014 0.894236 13.4666 1.03848C12.9724 0.510874 12.3179 0.161171 11.6047 0.0436601C10.8914 -0.0738508 10.1593 0.0474051 9.52206 0.388602C8.88478 0.729799 8.37798 1.27185 8.08033 1.93059C7.78269 2.58934 7.71085 3.32792 7.87598 4.03167C6.57143 3.96617 5.29523 3.6271 4.13021 3.03646C2.96518 2.44581 1.93737 1.61681 1.11347 0.60323C0.831756 1.08918 0.669772 1.65261 0.669772 2.25266C0.669458 2.79284 0.802481 3.32474 1.05704 3.80118C1.3116 4.27762 1.67983 4.68386 2.12904 4.98386C1.60807 4.96728 1.09859 4.82651 0.643009 4.57327V4.61552C0.642957 5.37315 0.905025 6.10746 1.38475 6.69386C1.86447 7.28025 2.5323 7.68262 3.27491 7.83268C2.79162 7.96348 2.28493 7.98274 1.7931 7.88902C2.00262 8.54092 2.41075 9.11097 2.96035 9.51938C3.50996 9.9278 4.17351 10.1541 4.85813 10.1667C3.69595 11.079 2.26066 11.5739 0.783161 11.5717C0.521437 11.5718 0.259934 11.5565 0 11.5259C1.49975 12.4902 3.24557 13.002 5.02857 13C11.0643 13 14.3638 8.001 14.3638 3.66545C14.3638 3.52459 14.3603 3.38233 14.354 3.24147C14.9958 2.77733 15.5498 2.20258 15.99 1.54415L15.9914 1.54204Z" fill="#6D727C"></path>
+</svg>
+
+             </a>
+          </li>
+          <li class="list-inline-item">
+             <a class="facebook" href="javascript:;" target="_blank">
+               <svg width="9" height="13" viewbox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.43782 13L2.41933 7.3125H0V4.875H2.41933V3.25C2.41933 1.0569 3.76731 0 5.70912 0C6.63926 0 7.43868 0.0697694 7.67164 0.100953V2.39287L6.3249 2.39349C5.26884 2.39349 5.06436 2.89908 5.06436 3.64101V4.875H8.06443L7.25799 7.3125H5.06435V13H2.43782Z" fill="#6D727C"></path>
+</svg>
+
+             </a>
+          </li>
+          <li class="list-inline-item">
+             <a class="linkedin" href="javascript:;" target="_blank">
+               <svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.625 3.25C2.52246 3.25 3.25 2.52246 3.25 1.625C3.25 0.727537 2.52246 0 1.625 0C0.727537 0 0 0.727537 0 1.625C0 2.52246 0.727537 3.25 1.625 3.25Z" fill="#6D727C"></path>
+<path d="M2.97917 4.33325H0.270833C0.121333 4.33325 0 4.45459 0 4.60409V12.7291C0 12.8786 0.121333 12.9999 0.270833 12.9999H2.97917C3.12867 12.9999 3.25 12.8786 3.25 12.7291V4.60409C3.25 4.45459 3.12867 4.33325 2.97917 4.33325Z" fill="#6D727C"></path>
+<path d="M11.0483 3.96024C9.89075 3.56374 8.44288 3.91203 7.57459 4.53657C7.54479 4.42011 7.43863 4.33345 7.31242 4.33345H4.60409C4.45459 4.33345 4.33325 4.45478 4.33325 4.60428V12.7293C4.33325 12.8788 4.45459 13.0001 4.60409 13.0001H7.31242C7.46192 13.0001 7.58325 12.8788 7.58325 12.7293V6.89011C8.02092 6.51311 8.58479 6.39286 9.04629 6.58895C9.49371 6.77799 9.74992 7.23949 9.74992 7.85428V12.7293C9.74992 12.8788 9.87125 13.0001 10.0208 13.0001H12.7291C12.8786 13.0001 12.9999 12.8788 12.9999 12.7293V7.30882C12.969 5.08311 11.922 4.25924 11.0483 3.96024Z" fill="#6D727C"></path>
+</svg>
+
+             </a>
+          </li>
+          <li class="list-inline-item">
+             <a class="pinterest" href="javascript:;" target="_blank">
+               <svg width="11" height="13" viewbox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.37816 8.59716C4.03627 10.3872 3.61963 12.1032 2.38401 12.9995C2.00312 10.2943 2.94365 8.26306 3.38109 6.10641C2.63555 4.85194 3.47078 2.32869 5.0418 2.95073C6.97551 3.71511 3.36744 7.61243 5.78928 8.09992C8.31838 8.60756 9.35056 3.71251 7.78214 2.12069C5.51694 -0.178956 1.18738 2.06675 1.72037 5.35893C1.84972 6.16361 2.68105 6.40735 2.05251 7.51818C0.602395 7.19709 0.169504 6.05311 0.225403 4.52824C0.315101 2.0323 2.4672 0.285784 4.62646 0.0433389C7.35705 -0.262805 9.91995 1.04627 10.2742 3.61436C10.6726 6.51395 9.04181 9.65468 6.12143 9.42849C5.32974 9.36674 4.99825 8.97415 4.37816 8.59716Z" fill="#6D727C"></path>
+</svg>
+             </a>
+          </li>
+       </ul>
+
+ 
+      </div>
+      </div> 
+      <img src="static/picture/main-round-circle.svg" alt="title" class="header-round-shape">
+  </header>
+
+  <!--  ====================== Banner Area =============================  -->
+  <div class="banner-area mt-7 mt-lg-10 mb-5 mb-md-8">
+     <div class="container">
+         <div class="row align-items-center">
+          <div class="col-md-6 col-lg-5 offset-lg-2 order-md-1">
+            <div class="banner-image rounded ms-md-auto mb-4" data-aos="fade-left"> 
+                <img src="static/picture/author-big.jpg" alt="title">
+            </div>
+        </div>
+           <div class="col-md-6 col-lg-5 order-md-12">
+              <div class="banner-content">
+                   <h2 class="display-4">Jhon Doe</h2>
+                    <p class="text-primary fs-5">A Collection of  18 Posts</p>
+                    <p class="fs-5 m-0">I was born in Kansas, and like little Ellie, I always dreamed that a hurricane would take me somewhere to another country.</p>
+                
+              </div>
+           </div>
+         </div>
+     </div>
+  </div>
+  <!--  ====================== Podcast Area =============================  -->
+  <div class="podcast-area position-relative mb-7 mb-lg-10 mt-5 mt-md-8">
+    <img src="static/picture/main-round-circle.svg" alt="title" class="podcast-round-shape2">
+    <div class="container">
+      <div class="category-container row">
+        <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="800">
+          <div class="podcast-style2 mt-4">
+          <div class="podcast-top">
+            <div class="podcast-image"><img src="static/picture/24.jpg" alt="title">
+            </div>
+            <div class="podcast-content">
+              <ul class="podcast-meta list-inline">
+                <li><a href="category.html">STUDIO</a></li>
+                <li><span>5 mins read</span></li>
+              </ul>
+              <h5 class="mb-2"><a href="single.html">You will never believe these bizarre truth of studio</a></h5>
+              <p class="m-0">Every month a group of friends get together to talk about...</p>
+
+            </div>
+            </div>
+            <div class="podcast-bottom">
+              <div class="podcast-author"><img src="static/picture/36.jpg" alt="title"><a href="">Mark
+                  Twin</a></div>
+              <p class="m-0 small">1 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="900">
+          <div class="podcast-style2 mt-4">
+          <div class="podcast-top">
+            <div class="podcast-image"><img src="static/picture/25.jpg" alt="title">
+            </div>
+            <div class="podcast-content">
+              <ul class="podcast-meta list-inline">
+                <li><a href="category.html">STUDIO</a></li>
+                <li><span>5 mins read</span></li>
+              </ul>
+              <h5 class="mb-2"><a href="single.html">Seven moments that sum up your studio experience</a></h5>
+              <p class="m-0">We started this podcast to give more people a chance to express...</p>
+
+            </div>
+            </div>
+            <div class="podcast-bottom">
+              <div class="podcast-author"><img src="static/picture/41.jpg" alt="title"><a href="">Jhon Doe</a></div>
+              <p class="m-0 small">2 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1000">
+          <div class="podcast-style2 mt-4">
+          <div class="podcast-top">
+            <div class="podcast-image"><img src="static/picture/26.jpg" alt="title">
+            </div>
+            <div class="podcast-content">
+              <ul class="podcast-meta list-inline">
+                <li><a href="category.html">STUDIO</a></li>
+                <li><span>5 mins read</span></li>
+              </ul>
+              <h5 class="mb-2"><a href="single.html">Five facts that nobody told you about studio</a></h5>
+              <p class="m-0">We have found that people are more likely to express their opinion...</p>
+
+            </div>
+            </div>
+            <div class="podcast-bottom">
+              <div class="podcast-author"><img src="static/picture/5.jpg" alt="title"><a href="">Robert Mull</a></div>
+              <p class="m-0 small">6 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1100">
+          <div class="podcast-style2 mt-4">
+          <div class="podcast-top">
+            <div class="podcast-image"><img src="static/picture/4.jpg" alt="title"> 
+            </div>
+            <div class="podcast-content">
+              <ul class="podcast-meta list-inline">
+                <li><a href="category.html">STUDIO</a></li>
+                <li><span>5 mins read</span></li>
+              </ul>
+              <h5 class="mb-2"><a href="single.html">Seven brilliant ways to advertise studio</a></h5>
+              <p class="m-0">You have probably seen this happen with other forms of media...</p>
+
+            </div>
+            </div>
+            <div class="podcast-bottom">
+              <div class="podcast-author"><img src="static/picture/6.jpg" alt="title"><a href="">Mark
+                  Twin</a></div>
+              <p class="m-0 small">8 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1200">
+          <div class="podcast-style2 mt-4">
+          <div class="podcast-top">
+            <div class="podcast-image"><img src="static/picture/28.jpg" alt="title">
+            </div>
+            <div class="podcast-content">
+              <ul class="podcast-meta list-inline">
+                <li><a href="category.html">STUDIO</a></li>
+                <li><span>5 mins read</span></li>
+              </ul>
+              <h5 class="mb-2"><a href="single.html">Ten top reasons why you face obstacles in learning</a></h5>
+              <p class="m-0">Podcasting has gone mainstream over the past few years...</p>
+
+            </div>
+            </div>
+            <div class="podcast-bottom">
+              <div class="podcast-author"><img src="static/picture/7.jpg" alt="title"><a href="">Bella Jimenez
+              </a></div>
+              <p class="m-0 small">2 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1300">
+          <div class="podcast-style2 mt-4">
+          <div class="podcast-top">
+            <div class="podcast-image"><img src="static/picture/29.jpg" alt="title">
+            </div>
+            <div class="podcast-content">
+              <ul class="podcast-meta list-inline">
+                <li><a href="category.html">STUDIO</a></li>
+                <li><span>5 mins read</span></li>
+              </ul>
+              <h5 class="mb-2"><a href="single.html">7 features of studio that make everyone love it</a></h5>
+              <p class="m-0">In fact, it's hard to walk into a modern office and not find someone...</p>
+
+            </div>
+            </div>
+            <div class="podcast-bottom">
+              <div class="podcast-author"><img src="static/picture/8.jpg" alt="title"><a href="">Edwin Watson
+              </a></div>
+              <p class="m-0 small">4 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1400">
+          <div class="podcast-style2 mt-4">
+          <div class="podcast-top">
+            <div class="podcast-image"><img src="static/picture/30.jpg" alt="title">
+            </div>
+            <div class="podcast-content">
+              <ul class="podcast-meta list-inline">
+                <li><a href="category.html">STUDIO</a></li>
+                <li><span>5 mins read</span></li>
+              </ul>
+              <h5 class="mb-2"><a href="single.html">5 disadvantages of studio &  how you can workaround</a></h5>
+              <p class="m-0">But this is a relatively new trend, and there are still some...</p>
+
+            </div>
+            </div>
+            <div class="podcast-bottom">
+              <div class="podcast-author"><img src="static/picture/9.jpg" alt="title"><a href="">Mark
+                Caitlin </a></div>
+              <p class="m-0 small">8 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1500">
+          <div class="podcast-style2 mt-4">
+          <div class="podcast-top">
+            <div class="podcast-image"><img src="static/picture/31.jpg" alt="title">
+            </div>
+            <div class="podcast-content">
+              <ul class="podcast-meta list-inline">
+                <li><a href="category.html">STUDIO</a></li>
+                <li><span>5 mins read</span></li>
+              </ul>
+              <h5 class="mb-2"><a href="single.html">15 Things Your Boss Wishes You Knew About Podcast</a></h5>
+              <p class="m-0">The first misconception is that podcasting is only possible...</p>
+
+            </div>
+            </div>
+            <div class="podcast-bottom">
+              <div class="podcast-author"><img src="static/picture/10.jpg" alt="title"><a href="">Henderson
+                  Twin</a></div>
+              <p class="m-0 small">5 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 post" data-aos="fade-down" data-aos-duration="1600">
+          <div class="podcast-style2 mt-4">
+          <div class="podcast-top">
+            <div class="podcast-image"><img src="static/picture/32.jpg" alt="title">
+            </div>
+            <div class="podcast-content">
+              <ul class="podcast-meta list-inline">
+                <li><a href="category.html">STUDIO</a></li>
+                <li><span>5 mins read</span></li>
+              </ul>
+              <h5 class="mb-2"><a href="single.html">Learn the truth about studio in the next 60 seconds</a></h5>
+              <p class="m-0">People still associate podcasting with the days of boom boxes...</p>
+
+            </div>
+            </div>
+            <div class="podcast-bottom">
+              <div class="podcast-author"><img src="static/picture/11.jpg" alt="title"><a href="">Jimenez
+                  Twin</a></div>
+              <p class="m-0 small">10 hours ago</p>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+       <div class="text-center mt-5 mt-lg-7">
+        <a href="#" class="load-more-scoll btn btn-primary text-white btn-lg">  <svg class="small me-1" width="15" height="16" viewbox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 3.00005C5.99398 2.73371 6.04123 2.46885 6.13897 2.22102C6.23672 1.9732 6.38299 1.7474 6.5692 1.55688C6.75542 1.36636 6.97782 1.21496 7.22334 1.11158C7.46887 1.00819 7.73258 0.954901 7.99899 0.954834C8.2654 0.954767 8.52913 1.00793 8.77471 1.11119C9.02029 1.21445 9.24277 1.36574 9.42907 1.55616C9.61538 1.74659 9.76177 1.97232 9.85964 2.22009C9.95751 2.46787 10.0049 2.73271 9.999 2.99905C9.98744 3.52161 9.77178 4.01888 9.39816 4.38442C9.02455 4.74996 8.52268 4.9547 7.99999 4.95483C7.4773 4.95496 6.97533 4.75047 6.60153 4.38512C6.22773 4.01977 6.01182 3.52261 6 3.00005ZM10.243 4.75705C10.237 4.49071 10.2842 4.22585 10.382 3.97803C10.4797 3.7302 10.626 3.5044 10.8122 3.31388C10.9984 3.12336 11.2208 2.97196 11.4663 2.86858C11.7119 2.76519 11.9756 2.7119 12.242 2.71183C12.5084 2.71177 12.7721 2.76493 13.0177 2.86819C13.2633 2.97145 13.4858 3.12274 13.6721 3.31316C13.8584 3.50359 14.0048 3.72932 14.1026 3.97709C14.2005 4.22487 14.2479 4.48971 14.242 4.75605C14.2304 5.27861 14.0148 5.77588 13.6412 6.14142C13.2675 6.50696 12.7657 6.7117 12.243 6.71183C11.7203 6.71196 11.2183 6.50747 10.8445 6.14212C10.4707 5.77677 10.2548 5.27961 10.243 4.75705ZM13 9.00005C13 8.73483 13.1054 8.48048 13.2929 8.29294C13.4804 8.10541 13.7348 8.00005 14 8.00005C14.2652 8.00005 14.5196 8.10541 14.7071 8.29294C14.8946 8.48048 15 8.73483 15 9.00005C15 9.26527 14.8946 9.51962 14.7071 9.70716C14.5196 9.89469 14.2652 10 14 10C13.7348 10 13.4804 9.89469 13.2929 9.70716C13.1054 9.51962 13 9.26527 13 9.00005ZM11.243 13.243C11.243 12.9778 11.3484 12.7235 11.5359 12.5359C11.7234 12.3484 11.9778 12.243 12.243 12.243C12.5082 12.243 12.7626 12.3484 12.9501 12.5359C13.1376 12.7235 13.243 12.9778 13.243 13.243C13.243 13.5083 13.1376 13.7626 12.9501 13.9502C12.7626 14.1377 12.5082 14.243 12.243 14.243C11.9778 14.243 11.7234 14.1377 11.5359 13.9502C11.3484 13.7626 11.243 13.5083 11.243 13.243ZM7 15C7 14.7348 7.10536 14.4805 7.29289 14.2929C7.48043 14.1054 7.73478 14 8 14C8.26522 14 8.51957 14.1054 8.70711 14.2929C8.89464 14.4805 9 14.7348 9 15C9 15.2653 8.89464 15.5196 8.70711 15.7072C8.51957 15.8947 8.26522 16 8 16C7.73478 16 7.48043 15.8947 7.29289 15.7072C7.10536 15.5196 7 15.2653 7 15ZM2.757 13.243C2.757 12.9778 2.86236 12.7235 3.04989 12.5359C3.23743 12.3484 3.49178 12.243 3.757 12.243C4.02222 12.243 4.27657 12.3484 4.46411 12.5359C4.65164 12.7235 4.757 12.9778 4.757 13.243C4.757 13.5083 4.65164 13.7626 4.46411 13.9502C4.27657 14.1377 4.02222 14.243 3.757 14.243C3.49178 14.243 3.23743 14.1377 3.04989 13.9502C2.86236 13.7626 2.757 13.5083 2.757 13.243ZM2.257 4.75705C2.257 4.35923 2.41504 3.97769 2.69634 3.69639C2.97764 3.41509 3.35918 3.25705 3.757 3.25705C4.15482 3.25705 4.53636 3.41509 4.81766 3.69639C5.09896 3.97769 5.257 4.35923 5.257 4.75705C5.257 5.15487 5.09896 5.53641 4.81766 5.81771C4.53636 6.09901 4.15482 6.25705 3.757 6.25705C3.35918 6.25705 2.97764 6.09901 2.69634 5.81771C2.41504 5.53641 2.257 5.15487 2.257 4.75705ZM0.875 9.00005C0.875 8.70168 0.993526 8.41553 1.2045 8.20455C1.41548 7.99358 1.70163 7.87505 2 7.87505C2.29837 7.87505 2.58452 7.99358 2.7955 8.20455C3.00647 8.41553 3.125 8.70168 3.125 9.00005C3.125 9.29842 3.00647 9.58457 2.7955 9.79554C2.58452 10.0065 2.29837 10.125 2 10.125C1.70163 10.125 1.41548 10.0065 1.2045 9.79554C0.993526 9.58457 0.875 9.29842 0.875 9.00005Z" fill="white"></path>
+</svg>
+Load More</a>
+       </div>
+     </div>
+  </div>
+
+
+ <!--  ====================== Footer Area =============================  -->
+ <footer class="footer-area position-relative  my-7 my-lg-10">
+  <a href="#" class="footer-back"><svg width="18" height="10" viewbox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 9L9 1L17 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</a>
+     <div class="container">
+          <div class="row">
+            <div class="col-md-3 d-flex align-items-center">
+                <div class="footer-widget-logo my-3">
+                     <a href="#"><img src="static/picture/logo.svg" alt="title"></a>
+                </div>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="footer-widget my-3 my-md-0">
+                     <h5>Pages</h5>
+                     <ul class="footer-list list-inline m-0">
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="about.html">About</a></li>
+                       <li><a href="tags.html">Tags</a></li>
+                       <li><a href="podcast.html">Podcast</a></li>
+                       <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                </div>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="footer-widget my-3 my-md-0">
+                     <h5>Social Media</h5>
+                     <ul class="footer-list list-inline m-0">
+                       <li><a href="#">Facebook</a></li>
+                       <li><a href="#">Linkedin</a></li>
+                       <li><a href="#">Instagram</a></li>
+                       <li><a href="#">Twitter</a></li>
+                     </ul>
+                </div>
+            </div>
+            <div class="col-md-4 offset-md-1">
+                <div class="footer-widget my-3 my-md-0">
+                    <h5 class="mb-2">Contact Adddress</h5>
+                    <p class="mb-6">2118 Thornridge Cir. Syracuse,  <br>Connecticut 35624 <br>USA</p>
+                    <h5>Newsletter</h5>
+                    <form class="footer-newsletter" action="#">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Enter your email address">
+                        <button class="btn btn-white"><img src="static/picture/mail-icon.svg" alt="title"></button>
+                      </div>
+                    </form>
+                </div>
+            </div>
+          </div>
+          <div class="row mt-7 mt-lg-10">
+            <div class="col-md-6">
+                <ul class="footer-contact-list list-inline m-0">
+                  <li class="fs-5 list-inline-item my-1 me-9"><a href="mailto:support@themeix.com">support@themeix.com</a></li>
+                  <li class="fs-5 list-inline-item my-1"><a href="tel:1234567890">(123) 456-7890</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 ms-auto">
+               <p class="copyright-text my-1">Copyright &copy; 2021.Company name All rights reserved.<a target="_blank" href="https://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+            </div>
+          </div>
+     </div>
+     <img src="static/picture/main-round-circle.svg" alt="title" class="footer-round-shape">
+ </footer>
+</main>
+
+  <!-- gulp:js -->
+  <script src="static/js/build.min.js"></script>
+  <!-- endgulp -->
+</body>
+</html>
